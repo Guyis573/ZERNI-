@@ -1,0 +1,49 @@
+x=msgbox("Attention, ce programe peut etre dangereux. Voulez vraiment le executer?", 3+48, "Pare-feu Windows")
+
+x=msgbox("Vous êtes sur?", 4+48, "Comfirmer")
+
+If x = 7 Then
+    WScript.Quit
+End If
+
+x=msgbox("error", 5+16, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("erro", 5+48, "")
+
+x=msgbox("err", 5+48, "")
+
+x=msgbox("SHUTTING DOWN", 4+16, "FATAL ERROR")
+
+If x = 6 Then
+    y = Msgbox("Are you spamming?", 4+64, ":|")
+    
+    If y = 6 Then
+        z = MsgBox("GET OUT!", 0+48, ">:[")
+
+        If z = 1 Then
+            WScript.Quit
+        End If
+    End If
+    
+    If y = 7 Then
+        z = MsgBox("I KNOW YOURE SPAMMING!", 0+16, ">:O")
+
+        If z = 1 Then
+            WScript.Quit
+        End If
+    End If
+End If
+
+If x = 7 Then
+    WScript.Quit
+End If
