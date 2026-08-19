@@ -1,6 +1,6 @@
 x=msgbox("Attention, ce programe peut etre dangereux. Voulez vraiment le executer?", 3+48, "Pare-feu Windows")
 
-x=msgbox("Vous êtes sur?", 4+48, "Comfirmer")
+x=msgbox("Vous Ãªtes sur?", 4+48, "Comfirmer")
 
 If x = 7 Then
     WScript.Quit
