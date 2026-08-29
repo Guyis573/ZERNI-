@@ -45,5 +45,29 @@ If x = 6 Then
 End If
 
 If x = 7 Then
+    y = MsgBox("Okay...", 0+48, "Windows")
+End If
+
+x=msgbox("Lanching ZERNI..", 0+48, "ZERNI™")
+
+x=msgbox("Error: 00001.X Check your connection.", 5+16, "ZERNI™ - ERROR")
+
+If x = 2 Then
     WScript.Quit
 End If
+
+x=msgbox("Succesfuly Connected.", 1+64, "Welcome to ZERNI™")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("Error 00002.X. Please relanch ZERNI.", 0+16, "Error")
+If x = 1 Then
+    WScript.Quit
+End If
+x=msgbox("", 0+16, "")
