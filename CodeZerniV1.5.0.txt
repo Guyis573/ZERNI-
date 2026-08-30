@@ -1,0 +1,93 @@
+x=msgbox("Warning, this EXE can be dangerous, you sure wannna execute it?", 3+48, "Windows Defender")
+
+x=msgbox("Vous êtes sur?", 4+48, "Comfirmer")
+
+If x = 7 Then
+    WScript.Quit
+End If
+
+x=msgbox("error", 5+16, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("error", 5+48, "")
+
+x=msgbox("erro", 5+48, "")
+
+x=msgbox("err", 5+48, "")
+
+x=msgbox("SHUTTING DOWN", 4+16, "FATAL ERROR")
+
+If x = 6 Then
+    y = Msgbox("Are you spamming?", 4+64, ":|")
+    
+    If y = 6 Then
+        z = MsgBox("GET OUT!", 0+48, ">:[")
+
+        If z = 1 Then
+            WScript.Quit
+        End If
+    End If
+    
+    If y = 7 Then
+        z = MsgBox("I KNOW YOURE SPAMMING!", 0+16, ">:O")
+
+        If z = 1 Then
+            WScript.Quit
+        End If
+    End If
+End If
+
+If x = 7 Then
+    y = MsgBox("Okay...", 0+48, "Windows")
+End If
+
+x=msgbox("Lanching ZERNI..", 0+48, "ZERNI™")
+
+x=msgbox("Error: 00001.X Check your connection.", 5+16, "ZERNI™ - ERROR")
+
+If x = 2 Then
+    WScript.Quit
+End If
+
+x=msgbox("Succesfuly Connected.", 1+64, "Welcome to ZERNI™")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("", 0+16, "")
+
+x=msgbox("Error 00002.X. Please relanch ZERNI.", 0+16, "Error")
+
+If x = 1 Then
+    y = MsgBox("You really tought?", 4+64, "ZERNI™")
+    
+    If y = 7 Then
+        z = MsgBox("Oh... then goodbye.", 0+48, "ZERNI™")
+
+        If z = 1 Then
+            WScript.Quit
+        End If
+    End If
+
+    If y = 6 Then
+        z = MsgBox("Just kidding.", 0+64, "ZERNI™")
+    End If
+End If
+
+x=msgbox("Welcome to ZERNI™. The new zenly, Fake, Smarter and Troll.", 0+32, "ZERNI™")
+
+x=msgbox("If you tought this was really a new zenly, you have been trolled :]", 0+64, "HAHA YOU HAVE BEEN TROLLED!")
+
+If x = 1 Then
+    WScript.Quit
+End If
